@@ -15,6 +15,7 @@
 		A44A6F302410C02E005A5B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44A6F2E2410C02E005A5B16 /* LaunchScreen.storyboard */; };
 		A44A6F3B2410C02E005A5B16 /* bullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A6F3A2410C02E005A5B16 /* bullseyeTests.swift */; };
 		A44A6F462410C02E005A5B16 /* bullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A6F452410C02E005A5B16 /* bullseyeUITests.swift */; };
+		A44A6F542411B813005A5B16 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44A6F532411B813005A5B16 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A44A6F202410C02C005A5B16 /* bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44A6F202410C02C005A5B16 /* michael chick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "michael chick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44A6F232410C02C005A5B16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A44A6F252410C02C005A5B16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A44A6F272410C02C005A5B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		A44A6F412410C02E005A5B16 /* bullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44A6F452410C02E005A5B16 /* bullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bullseyeUITests.swift; sourceTree = "<group>"; };
 		A44A6F472410C02E005A5B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44A6F532411B813005A5B16 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		A44A6F212410C02C005A5B16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A44A6F202410C02C005A5B16 /* bullseye.app */,
+				A44A6F202410C02C005A5B16 /* michael chick.app */,
 				A44A6F362410C02E005A5B16 /* bullseyeTests.xctest */,
 				A44A6F412410C02E005A5B16 /* bullseyeUITests.xctest */,
 			);
@@ -102,6 +104,7 @@
 				A44A6F232410C02C005A5B16 /* AppDelegate.swift */,
 				A44A6F252410C02C005A5B16 /* SceneDelegate.swift */,
 				A44A6F272410C02C005A5B16 /* ContentView.swift */,
+				A44A6F532411B813005A5B16 /* AboutView.swift */,
 				A44A6F292410C02E005A5B16 /* Assets.xcassets */,
 				A44A6F2E2410C02E005A5B16 /* LaunchScreen.storyboard */,
 				A44A6F312410C02E005A5B16 /* Info.plist */,
@@ -153,7 +156,7 @@
 			);
 			name = bullseye;
 			productName = bullseye;
-			productReference = A44A6F202410C02C005A5B16 /* bullseye.app */;
+			productReference = A44A6F202410C02C005A5B16 /* michael chick.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A44A6F352410C02E005A5B16 /* bullseyeTests */ = {
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44A6F542411B813005A5B16 /* AboutView.swift in Sources */,
 				A44A6F242410C02C005A5B16 /* AppDelegate.swift in Sources */,
 				A44A6F262410C02C005A5B16 /* SceneDelegate.swift in Sources */,
 				A44A6F282410C02C005A5B16 /* ContentView.swift in Sources */,
@@ -443,7 +447,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = honggyu.bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "michael chick";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +466,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = honggyu.bullseye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "michael chick";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
