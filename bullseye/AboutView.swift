@@ -62,5 +62,6 @@ struct AboutView_Previews: PreviewProvider {
 		AboutView()
 			.previewLayout(.fixed(width: 896, height: 414))
 			.navigationBarTitle("about")
+			.navigationBarHidden(false)
 	}
 }
